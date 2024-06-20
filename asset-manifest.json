@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NewsReadersnpm%20install%20--save%20gh-pages/static/css/main.9b95f474.css",
+    "main.js": "/NewsReadersnpm%20install%20--save%20gh-pages/static/js/main.0237ccd5.js",
+    "static/js/453.ed3810f9.chunk.js": "/NewsReadersnpm%20install%20--save%20gh-pages/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/NewsReadersnpm%20install%20--save%20gh-pages/index.html",
+    "main.9b95f474.css.map": "/NewsReadersnpm%20install%20--save%20gh-pages/static/css/main.9b95f474.css.map",
+    "main.0237ccd5.js.map": "/NewsReadersnpm%20install%20--save%20gh-pages/static/js/main.0237ccd5.js.map",
+    "453.ed3810f9.chunk.js.map": "/NewsReadersnpm%20install%20--save%20gh-pages/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b95f474.css",
+    "static/js/main.0237ccd5.js"
+  ]
+}
