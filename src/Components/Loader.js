@@ -4,7 +4,7 @@ import Loader from '../loader.gif'
 
 
 
- const loader=()=>  {
+ const  loader=()=>  {
  
     return (
       <div className='text-center'>

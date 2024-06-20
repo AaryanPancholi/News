@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NewsItem from './NewsItem';
-import Loader from './Loader`';
+import Loader from './Loader';
 import PropTypes from 'prop-types';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
@@ -46,7 +46,7 @@ const News = ({ country, pageSize, category, setProgress }) => {
 
   return (
     <>
-      <h1 className="text-center" style={{ margin: "35px 0px" }}>
+      <h1 className="text-center" style={{ margin: "35px 0px",marginTop:"50px" }}>
         NewsHeadlines
       </h1>
       {loading&&<Loader/>}
@@ -58,10 +58,10 @@ const News = ({ country, pageSize, category, setProgress }) => {
       >
         <div className="container my-3">
           <div className="row">
-            {articles.map((element) => (
-              <div className="col-md-4">
+            {articles.map((element,index) => (
+              <div className="col-md-4" key={index}>
                
-                <NewsItem
+                <NewsItem key={index}
                   title={element.title? element.title.slice(0, 45) : ""}
                   description={element.description? element.description.slice(0, 88) : ""}
                   imageUrl={element.urlToImage? element.urlToImage : "https://i.ytimg.com/vi/6M6XBEkONgc/hqdefault_live.jpg"}
@@ -77,11 +77,8 @@ const News = ({ country, pageSize, category, setProgress }) => {
   );
 };
 
-News.defaultProps = {
-  country: "in",
-  pageSize: 8,
-  category: "general",
-};
+
+
 
 News.propTypes = {
   country: PropTypes.string,
