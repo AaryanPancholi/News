@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.Main{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding-top: 10%;
+
+}
+label{
+    font-weight: bold;
+    padding-right: 2rem;
+    margin-bottom: 05px;
+    margin-top: 5px;
+    
+}
+form{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+}
+
+
+
+select{
+    
+    width: 650px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+input{
+    width:650px;
+    height:30px;
+    border-radius: 10px;
+    border-width: .5px;
+}
+
+    
+
+.mobile{
+    width: 60px;
+}
+button{
+    width: 650px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
