@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NewsItem from './NewsItem';
-import Loader from './Loader';
+import Loader from './loader';
 import PropTypes from 'prop-types';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
