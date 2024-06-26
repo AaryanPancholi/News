@@ -47,7 +47,7 @@ const News = ({ country, pageSize, category, setProgress }) => {
   return (
     <>
       <h1 className="text-center" style={{ margin: "35px 0px",marginTop:"50px" }}>
-        NewsHeadlines
+        News Headlines
       </h1>
       {loading&&<Loader/>}
       <InfiniteScroll
